@@ -1,3 +1,5 @@
+package br.senai.sp.posto;
+
 import java.util.Scanner;
 
 public class Posto {
@@ -13,14 +15,14 @@ public class Posto {
         for (int i = 1; i<desconto; i++){
             /** Coletar os Precos */
             System.out.println("------------------------------------");
-            System.out.println("-----    Bem Vindo ao Posto   ------");
+            System.out.println("-----    Bem Vindo ao br.senai.sp.posto.Posto   ------");
             System.out.println("Você é o cliente n° " + i);
             System.out.print("Digite o preço da gasolina: ");
             gasolina = teclado.nextDouble();
             System.out.print("Digite o preço do Alcool: ");
             alcool = teclado.nextDouble();
 
-            /** Logica Posto */
+            /** Logica br.senai.sp.posto.Posto */
 
             gasolina = gasolina*0.75;
 
@@ -40,13 +42,13 @@ public class Posto {
 
             /** Coletar os Precos */
             System.out.println("------------------------------------");
-            System.out.println("-----    Bem Vindo ao Posto   ------");
+            System.out.println("-----    Bem Vindo ao br.senai.sp.posto.Posto   ------");
             System.out.print("Digite o preço da gasolina: ");
             gasolina = teclado.nextDouble();
             System.out.print("Digite o preço do Alcool: ");
             alcool = teclado.nextDouble();
 
-            /** Logica Posto */
+            /** Logica br.senai.sp.posto.Posto */
 
             double avalia = (alcool / gasolina);
 
